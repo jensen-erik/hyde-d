@@ -4,6 +4,7 @@ __`hyde-d`__ is a fork of [Hyde-hyde](https://github.com/htr3n/hyde-hyde) with s
 
 ## Usage
 
+
 ### Installation
 
 __`Hyde-d`__ can be installed as many other Hugo themes:
@@ -32,9 +33,23 @@ theme = "hyde-d"
 theme : "hyde-d"
 ```
 
+
 ### Options
 
 __`Hyde-d`__ essentially inherits Hyde-hyde's [options](https://github.com/htr3n/hyde-hyde#options). 
+
+
+### Additional options
+
+It is possible to set a custom title on the post list page. The custom title is set in the config file (e.g. to Articles)
+
+```toml
+postTitle = "Articles"
+```
+```yaml
+postTitle : "Articles"
+```
+
 
 ## License
 
